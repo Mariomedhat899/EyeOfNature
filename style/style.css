@@ -1,0 +1,47 @@
+.my-bg{
+    background-image: url(../assets/IMG_20211106_160947.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.my-bg-c{
+    background:linear-gradient(green,orange)  ;
+    top: 0px;
+}
+
+.navbar .navbar-brand {
+    margin-right: 40%;
+}
+
+.navbar .form-control {
+    width: 200px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.my-p{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+figure{
+   height: 500px;
+}
+figure:hover .my-p{
+    background-color: rgba(0, 0, 0, 0.452);
+    inset: 100px;
+}
+.inner-img{
+    width: 50%;
+    height: 450px;
+   background-image: url(../assets/434021042_122130436010211461_7639259446205380736_n.jpg);
+   background-size: 100% 100%;
+}
+.inner-img i {
+    cursor: pointer;
+    
+}
+
