@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="50" tabindex="0">
     <nav class="navbar navbar-expand-lg my-bg-c position-fixed z-3 w-100">
         <div class="container">
             <a class="navbar-brand text-white" href="#">
@@ -23,18 +23,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#About">About</a>
+                        <a class="nav-link my-c" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#products">Products</a>
+                        <a class="nav-link my-c" href="#products">Products</a>
                     </li>
-                
+                    
+                    <li class="nav-item">
+                        <a class="nav-link  my-c" aria-current="page" href="#About">About</a>
+                    </li>
                 </ul>
         
             </div>
         </div>
     </nav>
-    <section class="vh-100 my-bg ">
+    <section class="vh-100 my-bg " id="home">
         <div class="container-fluid d-flex justify-content-center align-content-center h-100">
             <h1 class="align-self-center"></h1>
         </div>

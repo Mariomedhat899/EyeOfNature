@@ -35,7 +35,7 @@ figure:hover .my-p{
     inset: 120px;
 }
 .inner-img{
-    width: 50%;
+    width: 450px;
     height: 450px;
    background-image: url(../assets/434021042_122130436010211461_7639259446205380736_n.jpg);
    background-size: 100% 100%;
@@ -44,4 +44,26 @@ figure:hover .my-p{
     cursor: pointer;
     
 }
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+.my-c{
+    color: rgba(255, 255, 255, 0.473);
+}
 
+@media (max-width: 768px){
+    .inner-img{
+        width: 350px;
+        height: 340px;
+       background-image: url(../assets/434021042_122130436010211461_7639259446205380736_n.jpg);
+       background-size: 100% 100%;
+    }
+
+    figure{
+        height: 515px;
+       
+     }
+}
